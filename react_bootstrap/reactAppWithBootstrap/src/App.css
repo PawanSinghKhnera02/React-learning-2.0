@@ -1,0 +1,26 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;  /*this line centered the code*/
+}
+.main{
+  max-width: 1280px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card{
+  flex-basis: 23%;
+  background-color: aqua;
+  height: 100px;
+  margin-bottom: 10px ;
+}
+
+.header{
+  background-color: beige;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
