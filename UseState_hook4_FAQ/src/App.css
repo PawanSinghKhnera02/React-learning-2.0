@@ -1,0 +1,35 @@
+.faqOuter{
+  width: 1320px;
+  margin: auto;
+
+}
+.faqItems{
+  border: 1px solid red;
+  margin-bottom: 20px;
+}
+.faqItems h2{
+  margin: 0;
+  padding: 10px;
+  background-color: #282c34;
+  color: white;
+  /* align-items: left; */
+  text-align: left;
+  cursor: pointer;
+}
+
+.faqItems p{
+  text-align: left;
+  height: 0px;
+  transition: 0.3s;
+  margin: 0;
+  transform: scaleY(0);
+  padding: 0px;
+
+
+}
+
+.activeAns{
+  height: auto !important; 
+  transform: scaleY(1)  !important;
+  padding: 10px !important;
+}
