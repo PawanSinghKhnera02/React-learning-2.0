@@ -1,0 +1,15 @@
+input {
+  width: 100%;
+}
+
+.pk-row {
+  margin: 10px 5px;
+}
+
+.pk-button {
+  min-width: 80px;
+}
+
+.items-container {
+  text-align: left;
+}
